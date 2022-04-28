@@ -1,6 +1,6 @@
 package peaksoft.house.enums;
 
-public enum Supplier_Status {
+public enum SupplierStatus {
     BUSY,
     FREE
 }

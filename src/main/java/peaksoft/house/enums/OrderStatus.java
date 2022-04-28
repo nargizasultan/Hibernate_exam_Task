@@ -1,6 +1,6 @@
 package peaksoft.house.enums;
 
-public enum Order_Status {
+public enum OrderStatus {
 
     DELIVERED,
     IN_PROGRESS,
