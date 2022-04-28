@@ -2,11 +2,10 @@ package peaksoft.house.models;
 
 import jakarta.persistence.*;
 import lombok.Data;
-import peaksoft.house.enums.Order_Status;
+import peaksoft.house.enums.OrderStatus;
 
 import java.time.LocalDate;
 
-@Data
 @Entity
 public class Order {
 
@@ -21,6 +20,6 @@ public class Order {
     private int price;
 
     @Column(name = "status")
-    private Order_Status status;
+    private OrderStatus status;
 
 }

@@ -3,7 +3,6 @@ package peaksoft.house.models;
 import jakarta.persistence.*;
 import lombok.Data;
 
-@Data
 @Entity
 public class Customer {
 

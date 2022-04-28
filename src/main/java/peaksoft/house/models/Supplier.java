@@ -1,10 +1,11 @@
 package peaksoft.house.models;
 
-import jakarta.persistence.*;
-import lombok.Data;
-import peaksoft.house.enums.Supplier_Status;
+import jakarta.persistence.Column;
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.Id;
+import peaksoft.house.enums.SupplierStatus;
 
-@Data
 @Entity
 public class Supplier {
 
@@ -19,6 +20,6 @@ public class Supplier {
     private int phoneNumber;
     
     @Column(name = "status")
-    private Supplier_Status status;
+    private SupplierStatus status;
 
 }
