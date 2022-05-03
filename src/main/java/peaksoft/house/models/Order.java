@@ -5,16 +5,17 @@ import lombok.Data;
 import peaksoft.house.enums.OrderStatus;
 
 import java.time.LocalDate;
+import java.time.LocalDateTime;
 
 @Entity
 public class Order {
 
     @Id
     @GeneratedValue
-    private long id;
+    private Long id;
 
-    @Column(name = "date")
-    private LocalDate date;
+    @Column(name = "dateTime")
+    private LocalDateTime date;
 
     @Column(name = "price")
     private int price;

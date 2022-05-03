@@ -1,5 +1,7 @@
 package peaksoft.house.services;
 
+import com.sun.org.apache.xpath.internal.operations.Or;
+import peaksoft.house.models.Order;
 import peaksoft.house.models.Supplier;
 
 import java.util.List;
@@ -32,9 +34,22 @@ public class SupplierService {
         return null;
     }
 
+    public void getOrder(Long supplierId) {
+        // give free order to supplier with id = :supplierId
+    }
+
     public void deleteById(Long supplierId) {
         // write your code here
         // you should delete supplier with id = :supplierId
     }
 
+    public List<Order> findAllOrders(Long supplierId) {
+        // find all supplier's delivered orders
+        return null;
+    }
+
+    public List<Supplier> findAllBusySuppliers() {
+        // find all busy suppliers
+        return null;
+    }
 }
