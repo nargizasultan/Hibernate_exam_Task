@@ -12,7 +12,7 @@ public class Address {
 
     @Id
     @GeneratedValue
-    private long id;
+    private Long id;
 
     @Column(name = "country")
     private String country;

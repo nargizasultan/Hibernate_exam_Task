@@ -8,7 +8,7 @@ public class Customer {
 
     @Id
     @GeneratedValue
-    private long id;
+    private Long id;
 
     @Column(name = "full_name")
     private String fullName;
